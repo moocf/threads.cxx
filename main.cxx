@@ -11,7 +11,7 @@ void threadFunction(int& sum, int a, int b) {
   stringstream ss; ss << id;
   string idx = ss.str();
   sum = a + b;
-  printf("[%s] Hello!\n", idx.c_str());
+  printf("[%s] Hello! Finding sum of %d and %d\n", idx.c_str(), a, b);
   printf("[%s] Sum: %d\n", idx.c_str(), sum);
 }
 
